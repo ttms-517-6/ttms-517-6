@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--添加bootstrap animate 框架-->
+    <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/Bootstrap/animate.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        .form-signin{
+            width: 100%;
+            max-width: 350px;
+            margin:110px auto;
+        }
+        .form-control{
+            box-sizing: border-box;
+            font-size: 19px;
+            height: 45px;
+        }
+        .form-signin input[type="email"]{
+            margin: 7px auto;
+        }
+        .form-signin input[type="password"]{
+            margin-bottom: 30px;
+        }
+        .bt1{
+            width: 174px;
+            height: 45px;
+            color: #fff;
+            border: none;
+            font-size: 22px;
+            font-weight: bold;
+            background: linear-gradient(145deg,#ffec61,#f321d7);
+            transition: .1s linear;
+        }
+
+        .bt1:hover{
+            background: linear-gradient(135deg,#f321d7,#ffec61);
+            transform: translateY(-3px);
+            box-shadow:0 0px 10px #f321d7 ;
+        }
+        .bt2{
+            width: 174px;
+            height: 45px;
+            color: #fff;
+            border: none;
+            font-size: 22px;
+            font-weight: bold;
+            background: linear-gradient(135deg,#24ff72,#2196f3);
+            transition: .1s linear all;
+        }
+        .bt2:hover{
+            background: linear-gradient(135deg,#2196f3,#24ff72);
+            transform: translateY(-3px);
+            box-shadow:0 0px 10px #2196f3 ;
+        }
+        #lyy{
+            margin-top: 200px;
+        }
+        .all{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.985.0" data-gr-ext-installed="">
+
+<form class="form-signin all" >
+    <div class="text-center mb-4">
+        <img class="mb-4 animated bounceIn" src="img/log.png" alt="" width="120" height="120">
+<!--        <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>-->
+        <h5 class="animated bounceIn">明煌传媒有限公司</h5>
+    </div>
+
+    <div class="form-label-group">
+        <label for="inputEmail" class="animated bounceIn">Email address</label>
+        <input type="email" id="inputEmail" class="form-control animated bounceIn" placeholder="Email address" required="" autofocus="">
+    </div>
+
+    <div class="form-label-group">
+        <label for="inputPassword" class="animated bounceIn">Password</label>
+        <input type="password" id="inputPassword" class="form-control animated bounceIn" placeholder="Password" required="">
+    </div>
+
+    <div class="checkbox mb-3">
+        <label class="animated bounceIn">
+            <input type="checkbox" value="remember-me" class="animated bounceIn"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block animated bounceIn" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted text-center animated bounceIn">© 2021 5.31-6.11</p>
+</form>
+
+
+
+
+
+</body>
+</html>
